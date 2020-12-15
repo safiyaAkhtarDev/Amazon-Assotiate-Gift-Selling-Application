@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_tranding"
+            android:icon="@drawable/trending_menu"
+            android:title="Trending Gifts" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/nav_wishlist"
+            android:title="WishList" />
+        <item
+            android:id="@+id/nav_submitproduct"
+            android:icon="@drawable/submitproduct"
+            android:title="Submit A Product" />
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/blog_icon"
+            android:title="Visit Blog" />
+
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/privacy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_dis"
+            android:icon="@drawable/privacy"
+            android:title="Affiliate Disclaimer" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Your Review">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share This App" />
+                <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate"
+                android:title="Rate This App" />
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/updateapp"
+                android:title="Check For Update" />
+        </menu>
+    </item>
+</menu>

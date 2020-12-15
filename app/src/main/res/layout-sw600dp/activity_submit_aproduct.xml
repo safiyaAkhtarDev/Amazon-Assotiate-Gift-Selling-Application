@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SubmitAProduct">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay">
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="wrap_content"
+            android:layout_height="35sp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/txtname"
+            android:src="@mipmap/back" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="Submit A Product"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Submit The Product You Sell here and get Permanent Listing of your product on this app for just 299/- "
+            android:textSize="22sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tip_productname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp">
+
+            <EditText
+                android:id="@+id/edt_productname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Product Name"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tip_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edt_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Product Price"
+                android:inputType="numberDecimal" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tip_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edt_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Website URL"
+                android:inputType="textWebEditText" />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:id="@+id/weburl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#b12525"
+            android:textSize="16sp"
+            android:text="Check Example URL"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tip_Imageurl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edt_imageurl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Product Image URL"
+                android:inputType="textWebEditText" />
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/imageurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#b12525"
+            android:text="Check Image URL"/>
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:background="@drawable/button24"
+            android:text="Submit"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="An EMAIL with Payment Information will be sent to you in 24hr if your product is eligible for listing. Thank You For Reaching out!" />
+
+    </LinearLayout>
+</LinearLayout>

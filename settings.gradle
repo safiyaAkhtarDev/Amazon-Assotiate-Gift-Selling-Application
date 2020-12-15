@@ -1,0 +1,1 @@
+include ':app', ':mysql-connector', ':jtds-1.2.7', ':pdftest-7.1.3'

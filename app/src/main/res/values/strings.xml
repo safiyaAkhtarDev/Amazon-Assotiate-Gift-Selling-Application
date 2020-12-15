@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Empty Pocket!</string>
+    <!--<string name="defaultid">177218075899-fh3b5ogg093hfa0qnm4hf69j3s25bor5.apps.googleusercontent.com</string>-->
+    <string name="title_activity_home_">Empty Pocket!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Rs">\u20B91000</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="loading">Loading…</string>
+    <string name="log_error_occurred">"Error occurred: "</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="web_client_id">177218075899-fh3b5ogg093hfa0qnm4hf69j3s25bor5.apps.googleusercontent.com</string>
+
+    <string-array name="sortby">
+        <item>Most Relevent</item>
+        <item>Most Popular</item>
+        <item>Sort By Price</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="icon_gmail">&#xf1a0;"                                   Gmail Login"</string>
+    <string name="icon_facebook">&#xf39e;"                                   facebook Login"</string>
+
+</resources>

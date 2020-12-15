@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Gifty.iml" filepath="$PROJECT_DIR$/Gifty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Gifty.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Gifty.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jtds-1.2.7/Gifty.jtds-1.2.7.iml" filepath="$PROJECT_DIR$/.idea/modules/jtds-1.2.7/Gifty.jtds-1.2.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mysql-connector/Gifty.mysql-connector.iml" filepath="$PROJECT_DIR$/.idea/modules/mysql-connector/Gifty.mysql-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pdftest-7.1.3/Gifty.pdftest-7.1.3.iml" filepath="$PROJECT_DIR$/.idea/modules/pdftest-7.1.3/Gifty.pdftest-7.1.3.iml" />
+    </modules>
+  </component>
+</project>
